@@ -1,0 +1,26 @@
+[
+  {
+    "produto_id": "exemplo-amazon-1",
+    "loja": "amazon",
+    "titulo": "Produto de exemplo da Amazon",
+    "imagem": "https://placehold.co/800x800/ffffff/111111?text=Amazon",
+    "preco_atual": 59.90,
+    "preco_antigo": 89.90,
+    "desconto": 33,
+    "cupom": "EXEMPLO10",
+    "link_afiliado": "https://www.amazon.com.br/",
+    "criado_em": "2026-08-17T12:00:00-03:00"
+  },
+  {
+    "produto_id": "exemplo-shopee-1",
+    "loja": "shopee",
+    "titulo": "Produto de exemplo da Shopee",
+    "imagem": "https://placehold.co/800x800/ffffff/ee4d2d?text=Shopee",
+    "preco_atual": 79.90,
+    "preco_antigo": 119.90,
+    "desconto": "33%",
+    "cupom": "",
+    "link_afiliado": "https://shopee.com.br/",
+    "criado_em": "2026-08-17T12:00:00-03:00"
+  }
+]

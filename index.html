@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ofertas selecionadas da Amazon, Shopee, AliExpress e Mercado Livre.">
+  <title>Central dos Achadinhos</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">OFERTAS ATUALIZADAS</p>
+      <h1>Central dos <span>Achadinhos</span></h1>
+      <p class="subtitle">Promoções selecionadas em várias lojas, reunidas em um só lugar.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="toolbar" aria-label="Filtros de ofertas">
+      <label class="search">
+        <span>Buscar</span>
+        <input id="busca" type="search" placeholder="Ex.: teclado, celular, cozinha…" autocomplete="off">
+      </label>
+      <label class="select">
+        <span>Loja</span>
+        <select id="loja">
+          <option value="todas">Todas as lojas</option>
+          <option value="amazon">Amazon</option>
+          <option value="shopee">Shopee</option>
+          <option value="aliexpress">AliExpress</option>
+          <option value="mercado-livre">Mercado Livre</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="status" aria-live="polite">
+      <p id="resumo">Carregando ofertas…</p>
+      <p id="atualizacao"></p>
+    </section>
+
+    <section id="grade" class="grid" aria-label="Lista de ofertas"></section>
+    <nav id="paginacao" class="pagination" aria-label="Paginação"></nav>
+    <div id="estado" class="empty" hidden></div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Alguns links podem gerar comissão, sem custo adicional para você.</p>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
