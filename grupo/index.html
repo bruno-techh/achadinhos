@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Entre grátis no grupo geral da Central dos Achadinhos e receba promoções da Shopee, Amazon, Mercado Livre e AliExpress.">
+  <meta name="theme-color" content="#ff5a13">
+  <title>Grupo de Promoções | Central dos Achadinhos</title>
+  <style>
+    :root{--ink:#17130f;--cream:#fffaf1;--orange:#ff5a13;--orange-dark:#d93e05;--green:#18b963;--blue:#2389ca}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}
+    .hero{position:relative;overflow:hidden;min-height:690px;padding:24px max(22px,calc((100vw - 1120px)/2)) 72px;background:radial-gradient(circle at 82% 18%,#ffdab0 0,transparent 35%),linear-gradient(145deg,#fffdf8,#fff1dc)}
+    .hero:after{content:"";position:absolute;width:230px;height:230px;border:45px solid #ff5a1309;border-radius:50%;right:3%;bottom:2%}
+    nav{display:flex;align-items:center;justify-content:space-between;position:relative;z-index:3}
+    .brand{display:flex;align-items:center;gap:12px;font-size:12px;line-height:1.05;text-transform:uppercase;letter-spacing:.08em}.mark{width:46px;height:46px;border-radius:14px;background:var(--ink);color:#fff;display:grid;place-items:center;font-weight:900;box-shadow:5px 5px 0 var(--orange)}
+    .official{font-size:12px;font-weight:800;background:#fff;border:1px solid #eadfd3;border-radius:99px;padding:10px 14px}.official i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green);margin-right:7px;box-shadow:0 0 0 4px #18b96320}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:70px;align-items:center;padding-top:100px;position:relative;z-index:2}
+    .eyebrow,.section-label{font-size:12px;letter-spacing:.16em;font-weight:900;color:var(--orange-dark)}.eyebrow span{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;margin-right:8px;background:#ffdfc9}
+    h1{font-size:clamp(48px,6vw,76px);line-height:.98;letter-spacing:-.055em;margin:20px 0 24px;max-width:720px}h1 em{color:var(--orange);font-style:normal}.lead{max-width:620px;color:#675b50;font-size:19px;line-height:1.55}
+    .cta{display:flex;align-items:center;gap:13px;width:min(100%,450px);padding:16px 18px;margin-top:28px;border-radius:17px;background:var(--green);color:#fff;box-shadow:0 15px 35px #18b96345;transition:.2s}.cta:hover{transform:translateY(-2px);box-shadow:0 19px 38px #18b96355}.wa{font-size:29px}.cta-text{display:flex;flex-direction:column;gap:3px}.cta-text strong{font-size:17px}.cta-text small{font-size:11px;opacity:.85}.arrow{margin-left:auto;font-size:25px}
+    .telegram{display:inline-block;margin:17px 0 0 8px;color:var(--blue);font-size:13px;font-weight:800;border-bottom:1px solid #2389ca55;padding-bottom:3px}.safe{font-size:11px;color:#85786b;margin:14px 0 0 8px}.safe b{color:var(--green)}
+    .store-card{background:#fff;border:1px solid #eddfd1;border-radius:30px;padding:26px;box-shadow:0 30px 70px #6a35182a;transform:rotate(2deg)}.store-card>span{font-size:11px;font-weight:900;color:var(--orange-dark);letter-spacing:.12em}.store-card h2{font-size:29px;line-height:1.05;margin:12px 0}.store-card p{color:#74685d;font-size:14px;line-height:1.5}
+    .stores{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}.store{padding:17px 12px;border-radius:14px;background:#fff7ed;border:1px solid #f1e2d2;text-align:center;font-weight:900;font-size:13px}.store:nth-child(2){background:#fff2e4}.store:nth-child(3){background:#fff8e9}.store:nth-child(4){background:#f8f3ff}
+    .numbers{max-width:1120px;margin:-46px auto 0;position:relative;z-index:5;display:grid;grid-template-columns:repeat(3,1fr);background:#fff;border:1px solid #eee2d5;border-radius:25px;box-shadow:0 18px 55px #4a2d1220;overflow:hidden}.numbers div{min-height:145px;display:flex;align-items:center;justify-content:center;gap:16px;padding:24px;border-right:1px solid #eee2d5}.numbers div:last-child{border:0}.numbers strong{color:var(--orange);font-size:clamp(40px,4vw,60px);letter-spacing:-.06em;line-height:.9;white-space:nowrap}.numbers span{color:#75695e;font-size:11px;line-height:1.45;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+    .benefits{max-width:1120px;margin:auto;padding:100px 22px}.intro{max-width:630px}.intro h2,.how h2,.final h2{font-size:clamp(34px,4vw,52px);line-height:1.06;letter-spacing:-.04em;margin:14px 0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-top:45px}.card{padding:27px;border-radius:23px;background:#fff;border:1px solid #efe3d6;box-shadow:0 12px 36px #4a2d1210}.icon{display:grid;place-items:center;width:52px;height:52px;border-radius:15px;background:#fff0df;font-size:25px}.card h3{font-size:19px;margin:21px 0 10px}.card p{font-size:14px;line-height:1.65;color:#73675d;margin:0}
+    .how{max-width:1120px;margin:0 auto 95px;padding:58px;border-radius:34px;background:var(--ink);color:#fff;display:grid;grid-template-columns:.8fr 1.2fr;gap:80px;align-items:center}.how>div>p{color:#c8beb5;line-height:1.6}.section-label.light{color:#ff8b59}.steps{display:grid;gap:11px}.step{display:grid;grid-template-columns:42px 1fr;align-items:center;gap:14px;background:#2a241e;border-radius:15px;padding:15px}.step b{display:grid;place-items:center;width:38px;height:38px;border-radius:11px;background:var(--orange)}.step span{display:flex;flex-direction:column;gap:4px}.step small{color:#bcb1a7}
+    .final{margin:0 18px 30px;padding:78px 22px;text-align:center;color:#fff;border-radius:32px;background:linear-gradient(135deg,#ff6927,#e64606)}.final h2{max-width:680px;margin:10px auto}.final p{opacity:.9}.final .cta{margin:27px auto 14px;background:#fff;color:#168c4d}.telegram-white{display:block;width:max-content;margin:0 auto 20px;border-bottom:1px solid #ffffff88;font-size:13px;font-weight:800}.note{display:block;font-size:11px;opacity:.75}
+    footer{display:flex;align-items:center;justify-content:center;gap:13px;padding:28px 20px 42px;font-size:11px;text-transform:uppercase;letter-spacing:.07em}footer .mark{width:36px;height:36px;border-radius:10px;font-size:11px;box-shadow:3px 3px 0 var(--orange)}footer small{color:#877b70;text-transform:none;letter-spacing:0}
+    @media(max-width:850px){.hero-grid{grid-template-columns:1fr;padding-top:70px}.store-card{max-width:520px;margin:auto;transform:none}.numbers{margin:-28px 18px 0}.cards{grid-template-columns:1fr}.how{margin-left:18px;margin-right:18px;grid-template-columns:1fr;gap:32px;padding:40px 27px}}
+    @media(max-width:540px){.hero{padding-left:18px;padding-right:18px}.official{display:none}.hero-grid{padding-top:60px;gap:50px}h1{font-size:46px}.lead{font-size:17px}.numbers{grid-template-columns:1fr;margin:-20px 12px 0}.numbers div{min-height:115px;justify-content:flex-start;padding-left:35px;border-right:0;border-bottom:1px solid #eee2d5}.benefits{padding:75px 18px}.how{margin:0 12px 72px;padding:37px 20px}.final{margin:0 10px 20px;padding:62px 18px}.safe{font-size:10px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <a class="brand" href="#inicio" aria-label="Central dos Achadinhos">
+        <span class="mark">CA</span><span>Central dos<br><strong>Achadinhos</strong></span>
+      </a>
+      <span class="official"><i></i> Grupo oficial</span>
+    </nav>
+
+    <div class="hero-grid" id="inicio">
+      <div>
+        <div class="eyebrow"><span>✦</span> Seu atalho para economizar</div>
+        <h1>As melhores <em>promoções da internet</em> em um só grupo.</h1>
+        <p class="lead">Achadinhos da Shopee, Amazon, Mercado Livre e AliExpress enviados todos os dias. Entre grátis e economize sem perder tempo procurando.</p>
+        <a class="cta" href="https://chat.whatsapp.com/KvkXZX2hWCK1puDJ1uX7oA" target="_blank" rel="noopener noreferrer">
+          <span class="wa">◉</span><span class="cta-text"><strong>Entrar no grupo geral</strong><small>Acesso gratuito pelo WhatsApp</small></span><span class="arrow">→</span>
+        </a>
+        <a class="telegram" href="https://t.me/centraldosachadinhoss" target="_blank" rel="noopener noreferrer">✈️ Prefere Telegram? Entre no nosso canal</a>
+        <p class="safe"><b>✓</b> Gratuito &nbsp; <b>✓</b> Sem spam &nbsp; <b>✓</b> Saia quando quiser</p>
+      </div>
+
+      <aside class="store-card" aria-label="Lojas disponíveis no grupo">
+        <span>UM GRUPO. TODAS AS OFERTAS.</span>
+        <h2>Você escolhe a loja.<br>Nós encontramos o preço.</h2>
+        <p>Promoções, cupons e quedas de preço reunidos em um único lugar.</p>
+        <div class="stores">
+          <div class="store">Shopee</div><div class="store">Amazon</div>
+          <div class="store">Mercado Livre</div><div class="store">AliExpress</div>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <section class="numbers" aria-label="Destaques">
+    <div><strong>4</strong><span>grandes lojas<br>em um só lugar</span></div>
+    <div><strong>7 dias</strong><span>com ofertas<br>toda semana</span></div>
+    <div><strong>até 70%</strong><span>de desconto<br>em achadinhos*</span></div>
+  </section>
+
+  <main>
+    <section class="benefits">
+      <div class="intro">
+        <span class="section-label">POR QUE ENTRAR?</span>
+        <h2>Economize sem perder tempo procurando.</h2>
+      </div>
+      <div class="cards">
+        <article class="card"><span class="icon">⚡</span><h3>Ofertas em primeira mão</h3><p>Receba as melhores promoções enquanto elas ainda estão disponíveis.</p></article>
+        <article class="card"><span class="icon">🏷️</span><h3>Cupons selecionados</h3><p>Descontos e cupons que ajudam você a pagar ainda menos.</p></article>
+        <article class="card"><span class="icon">🛒</span><h3>Quatro lojas juntas</h3><p>Shopee, Amazon, Mercado Livre e AliExpress reunidas no mesmo grupo.</p></article>
+      </div>
+    </section>
+
+    <section class="how">
+      <div><span class="section-label light">SIMPLES ASSIM</span><h2>Entrou, economizou.</h2><p>Um grupo pensado para quem gosta de preço baixo, sem enrolação.</p></div>
+      <div class="steps">
+        <div class="step"><b>1</b><span><strong>Toque no botão</strong><small>Abra o convite no WhatsApp.</small></span></div>
+        <div class="step"><b>2</b><span><strong>Entre no grupo geral</strong><small>É rápido, seguro e gratuito.</small></span></div>
+        <div class="step"><b>3</b><span><strong>Aproveite as ofertas</strong><small>Receba os achadinhos diariamente.</small></span></div>
+      </div>
+    </section>
+
+    <section class="final">
+      <span>✦</span><h2>Seu próximo achadinho pode chegar hoje.</h2>
+      <p>Entre agora no grupo geral da Central dos Achadinhos.</p>
+      <a class="cta" href="https://chat.whatsapp.com/KvkXZX2hWCK1puDJ1uX7oA" target="_blank" rel="noopener noreferrer"><span class="wa">◉</span><span class="cta-text"><strong>Quero entrar no grupo</strong></span><span class="arrow">→</span></a>
+      <a class="telegram-white" href="https://t.me/centraldosachadinhoss" target="_blank" rel="noopener noreferrer">Ou entrar pelo Telegram</a>
+      <small class="note">100% gratuito • Promoções sujeitas à disponibilidade</small>
+    </section>
+  </main>
+
+  <footer><span class="mark">CA</span><p>Central dos Achadinhos<br><small>Ofertas boas de verdade. *Descontos variam conforme a oferta.</small></p></footer>
+</body>
+</html>
