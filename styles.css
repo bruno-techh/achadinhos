@@ -20,6 +20,11 @@ button, input, select { font: inherit; }
 h1 { margin: 0; font-size: clamp(2rem, 6vw, 4rem); line-height: 1.05; letter-spacing: -.05em; }
 h1 span { color: var(--accent); }
 .subtitle { max-width: 640px; margin: 16px 0 0; color: var(--muted); }
+.social-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.social { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 16px; border: 1px solid transparent; border-radius: 11px; color: #fff; text-decoration: none; font-weight: 850; transition: transform .2s, filter .2s; }
+.social:hover { transform: translateY(-2px); filter: brightness(1.08); }
+.social.whatsapp { background: #168c4d; }
+.social.telegram { background: #168ac0; }
 .toolbar { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 16px; margin: 30px 0 18px; padding: 16px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); }
 .toolbar label span { display: block; margin: 0 0 7px; color: var(--muted); font-size: .8rem; font-weight: 700; }
 input, select { width: 100%; min-height: 46px; padding: 0 14px; color: var(--text); border: 1px solid var(--border); border-radius: 11px; outline: none; background: var(--surface-2); }
@@ -46,6 +51,8 @@ input:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px #
 .pagination button:disabled { opacity: .45; cursor: default; }
 .empty { margin: 30px 0 60px; padding: 34px; border: 1px dashed var(--border); border-radius: 18px; color: var(--muted); text-align: center; }
 footer { padding: 26px 0; border-top: 1px solid var(--border); color: var(--muted); font-size: .8rem; }
+.footer-cta { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 24px; padding: 18px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); color: var(--text); font-size: 1rem; }
+.footer-cta .social-links { margin-top: 0; }
 @media (max-width: 950px) { .grid { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 700px) { .toolbar { grid-template-columns: 1fr; } .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; } .status { display: block; } }
+@media (max-width: 700px) { .toolbar { grid-template-columns: 1fr; } .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; } .status { display: block; } .footer-cta { align-items: flex-start; flex-direction: column; } }
 @media (max-width: 420px) { .wrap { width: min(100% - 20px, 1180px); } .grid { grid-template-columns: 1fr; } .hero { padding-top: 38px; } }
