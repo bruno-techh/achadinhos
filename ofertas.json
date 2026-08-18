@@ -1,26 +1,26 @@
 [
   {
-    "produto_id": "exemplo-amazon-1",
-    "loja": "amazon",
-    "titulo": "Produto de exemplo da Amazon",
-    "imagem": "https://placehold.co/800x800/ffffff/111111?text=Amazon",
-    "preco_atual": 59.90,
-    "preco_antigo": 89.90,
-    "desconto": 33,
-    "cupom": "EXEMPLO10",
-    "link_afiliado": "https://www.amazon.com.br/",
-    "criado_em": "2026-08-17T12:00:00-03:00"
+    "produto_id": "1005008744753707",
+    "loja": "aliexpress",
+    "titulo": "AULA HERO 68HE Teclado com interruptor magnético RGB Teclado mecânico para jogos Gatilho rápido 8K Retorno com fio Esports Teclado personalizado",
+    "imagem": "https://ae-pic-a1.aliexpress-media.com/kf/S53096c2ac11442b9a8a71bfce0eb72245.jpg",
+    "preco_atual": "241.28",
+    "preco_antigo": "430.85",
+    "desconto": "44",
+    "cupom": "",
+    "link_afiliado": "https://s.click.aliexpress.com/e/_c3ditbCT",
+    "criado_em": "2026-08-17T17:57:15.746Z"
   },
   {
-    "produto_id": "exemplo-shopee-1",
-    "loja": "shopee",
-    "titulo": "Produto de exemplo da Shopee",
-    "imagem": "https://placehold.co/800x800/ffffff/ee4d2d?text=Shopee",
-    "preco_atual": 79.90,
-    "preco_antigo": 119.90,
-    "desconto": "33%",
+    "produto_id": "1005004771215562",
+    "loja": "aliexpress",
+    "titulo": "Hub usb 3.0 hub usb 4 portas de alta velocidade tipo c divisor 5gbps para acessórios de computador pc hub multiport 4 portas usb 3.0 2.0",
+    "imagem": "https://ae-pic-a1.aliexpress-media.com/kf/Sceef93747f1a499ca40c18a75c97553fV.jpg",
+    "preco_atual": "23.60",
+    "preco_antigo": "25.88",
+    "desconto": "9",
     "cupom": "",
-    "link_afiliado": "https://shopee.com.br/",
-    "criado_em": "2026-08-17T12:00:00-03:00"
+    "link_afiliado": "https://s.click.aliexpress.com/e/_c3UZzGth",
+    "criado_em": "2026-08-17T17:45:09.099Z"
   }
 ]
