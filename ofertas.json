@@ -1,5 +1,77 @@
 [
   {
+    "produto_id": "1005005996242210",
+    "loja": "aliexpress",
+    "titulo": "1 a 5 vias pwm ventilador hub pc cpu resfriamento 4 pinos/3pin ventilador cabo de alimentação hub divisor adaptador desktop computador cooler caso ventiladores",
+    "imagem": "https://ae-pic-a1.aliexpress-media.com/kf/S9a45cf2b61814b9c8024dab2774025c1r.jpg",
+    "preco_atual": "14.08",
+    "preco_antigo": "14.82",
+    "desconto": "5",
+    "cupom": "",
+    "link_afiliado": "https://s.click.aliexpress.com/e/_c34LF5jp",
+    "criado_em": "2026-08-18T18:08:43.278Z"
+  },
+  {
+    "produto_id": "1005009353113123",
+    "loja": "aliexpress",
+    "titulo": "4k webcam ptz câmera web emeet Pixy câmera dupla ai rastreamento câmera de vídeo para streaming com sonyensor controle de gesto",
+    "imagem": "https://ae-pic-a1.aliexpress-media.com/kf/Sf6f65eda6bcf4c4cb50fe910cd2b24c7f.jpg",
+    "preco_atual": "498.55",
+    "preco_antigo": "1586.31",
+    "desconto": "69",
+    "cupom": "",
+    "link_afiliado": "https://s.click.aliexpress.com/e/_c4kd2vfh",
+    "criado_em": "2026-08-18T17:56:36.525Z"
+  },
+  {
+    "produto_id": "MLB58966845",
+    "loja": "mercado-livre",
+    "titulo": "Headphone Sem Fio Baseus Bass Bh1 Lite Bluetooth Com Enc - Preto",
+    "imagem": "https://http2.mlstatic.com/D_Q_NP_2X_978840-MLA98750317935_112025-AB.webp",
+    "preco_atual": "122.78",
+    "preco_antigo": "229",
+    "desconto": "46",
+    "cupom": "",
+    "link_afiliado": "https://meli.la/1WhbJhV",
+    "criado_em": "2026-08-18T17:11:25.317Z"
+  },
+  {
+    "produto_id": "MLBU3403280878",
+    "loja": "mercado-livre",
+    "titulo": "Câmera Segurança Ip Externa Wifi A28 App Icsee À Prova Dágua Ip66 Dome Lente Dupla Lentes 2 Em 1 Vigilancia Visão Noturna Infravermelho 4k Uhd Nova Geração Lançamento 2026 Nexgen",
+    "imagem": "https://http2.mlstatic.com/D_Q_NP_2X_927792-MLB91185357960_092025-AB.webp",
+    "preco_atual": "104.1",
+    "preco_antigo": "200",
+    "desconto": "47",
+    "cupom": "",
+    "link_afiliado": "https://meli.la/2mfKnuz",
+    "criado_em": "2026-08-18T16:56:21.003Z"
+  },
+  {
+    "produto_id": "MLBU3787930650",
+    "loja": "mercado-livre",
+    "titulo": "Esmerilhadeira Angular 4.1/2 Pol 700w Gws Com Discos Bosch Azul 220v",
+    "imagem": "https://http2.mlstatic.com/D_Q_NP_2X_791838-MLA85820660514_062025-AB.webp",
+    "preco_atual": "294.9",
+    "preco_antigo": "408.05",
+    "desconto": "27",
+    "cupom": "",
+    "link_afiliado": "https://meli.la/1kwMAHG",
+    "criado_em": "2026-08-18T16:41:16.998Z"
+  },
+  {
+    "produto_id": "MLB65816408",
+    "loja": "mercado-livre",
+    "titulo": "Smartwatch HUAWEI WATCH GT Runner 2 Bateria com Autonomia de Até 14 Dias Posicionamento de Precisão Modo Maratona Inteligente GPS ECG Compatível iOS e Android Preto Inclusa uma pulseira extra",
+    "imagem": "https://http2.mlstatic.com/D_Q_NP_2X_766493-MLA109629412217_032026-AB.webp",
+    "preco_atual": "1399",
+    "preco_antigo": "2599",
+    "desconto": "46",
+    "cupom": "",
+    "link_afiliado": "https://meli.la/1e88yoz",
+    "criado_em": "2026-08-18T16:26:12.141Z"
+  },
+  {
     "produto_id": "MLB60074213",
     "loja": "mercado-livre",
     "titulo": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
