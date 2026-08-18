@@ -22,6 +22,7 @@ h1 span { color: var(--accent); }
 .subtitle { max-width: 640px; margin: 16px 0 0; color: var(--muted); }
 .social-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
 .social { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 16px; border: 1px solid transparent; border-radius: 11px; color: #fff; text-decoration: none; font-weight: 850; transition: transform .2s, filter .2s; }
+.social-icon { width: 22px; height: 22px; margin-right: 9px; flex: 0 0 auto; fill: currentColor; }
 .social:hover { transform: translateY(-2px); filter: brightness(1.08); }
 .social.whatsapp { background: #168c4d; }
 .social.telegram { background: #168ac0; }
