@@ -1,5 +1,41 @@
 [
   {
+    "produto_id": "B07XZDZWTG",
+    "loja": "amazon",
+    "titulo": "NexGard Antipulgas e Carrapatos para Cães de 4,1 a 10kg, 1 tablete | Antipulgas",
+    "imagem": "https://m.media-amazon.com/images/I/71SCXcx21qL._SL1000_.jpg",
+    "preco_atual": "49,90",
+    "preco_antigo": "57,38",
+    "desconto": "Oferta imperdível",
+    "cupom": "COMPRANOAPP",
+    "link_afiliado": "https://www.amazon.com.br/dp/B07XZDZWTG?tag=achadinh07fa8-20",
+    "criado_em": "2026-08-19T12:16:16.543Z"
+  },
+  {
+    "produto_id": "B0FG2DQF7G",
+    "loja": "amazon",
+    "titulo": "TOYADENT Escova de Dente Adultos, 5500 Cerdas Macia, Kit Família 3 Unidades | Confortável para Escovação Diária, Alta Dens...",
+    "imagem": "https://m.media-amazon.com/images/I/71cgCZlx4gL._SL1000_.jpg",
+    "preco_atual": "24,89",
+    "preco_antigo": "29,90",
+    "desconto": "Oferta imperdível",
+    "cupom": "COMPRANOAPP",
+    "link_afiliado": "https://www.amazon.com.br/dp/B0FG2DQF7G?tag=achadinh07fa8-20",
+    "criado_em": "2026-08-19T12:15:44.891Z"
+  },
+  {
+    "produto_id": "B0FG2DQF7G",
+    "loja": "amazon",
+    "titulo": "Inteligência pragmática: A habilidade humana que a IA nunca substituirá - Como transformar objetivos em realidade",
+    "imagem": "https://m.media-amazon.com/images/I/81l2YjWdkxL._SL1000_.jpg",
+    "preco_atual": "7,96",
+    "preco_antigo": "19,90",
+    "desconto": "Oferta imperdível",
+    "cupom": "",
+    "link_afiliado": "https://www.amazon.com.br/dp/B0FG2DQF7G?tag=achadinh07fa8-20",
+    "criado_em": "2026-08-19T12:15:13.248Z"
+  },
+  {
     "produto_id": "1005005996242210",
     "loja": "aliexpress",
     "titulo": "1 a 5 vias pwm ventilador hub pc cpu resfriamento 4 pinos/3pin ventilador cabo de alimentação hub divisor adaptador desktop computador cooler caso ventiladores",
